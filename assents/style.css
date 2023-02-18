@@ -38,33 +38,42 @@
     word-spacing: 2px;
     letter-spacing: 1px;
 }
-.link{
+.style{
 
     background-color: #fff; 
-    width: 30%;
-    height: 50px;
-    
-    border-radius: 0.3%;
-    display: inline-block;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: black;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+     height: 50px;
+  }
 
-}
+
+    
+
+
 .abtpage{
 
 
     background-color: #fff;
     width: 100%;
     height: 240px;
-    display: inline;
-
-}
-.textabtpage{
     text-align: center;
-  list-style-position: inside;
-    color:black;
-    
-    
-   
-   
-
-
+      list-style-position: inside;
+ 
 }
+.abtpage2{
+     
+    width: 100%;
+    height: 250px;
+    text-align: center; 
+    background-color:#eef1f4;
+}
+
+
+ 
